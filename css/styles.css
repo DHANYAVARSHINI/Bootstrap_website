@@ -1,0 +1,131 @@
+#title{
+  background-color:Black;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+h1{
+  font-family: "Merriweather";
+  font-size: 4rem;
+  line-height: 2;
+}
+.navbar{
+  padding-bottom: 15rem;
+}
+.navbar-brand{
+  font-size: 100px;
+  font-family: "Source Serif Pro";
+  font-weight: bold;
+  font-style: italic;
+  font-weight: 500px;
+}
+.nav-block{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 4rem;
+  font-family: "Source Serif Pro-light";
+}
+.img{
+  width: 10%;
+  padding-bottom:30px;
+  padding-left:50px;
+}
+#features{
+  padding: 7% 15%;
+}
+.home{
+  padding-top: 15%;
+}
+.row{
+  color: white;
+  font-family: "Source Serif Pro";
+  font-style: italic;
+  font-size: 1.5rem;
+  align-items: center;
+  line-height: normal;
+}
+.content{
+  text-align: left;
+  width: 70%;
+  margin: 100px auto;
+}
+.coffeeimg{
+  border-radius: 10%;
+}
+.about{
+  background: Black;
+  float: left;
+  font-family: "Source Serif Pro";
+  align-items: center;
+  padding-left: 400px;
+  padding-top: 90px;
+}
+.heading{
+  padding-left: 800px;
+
+}
+.menu{
+  padding-left: 100px;
+  background-color: Black;
+  color:white;
+  font-family: "Source Serif Pro";
+  font-style: italic;
+  line-height: 10px;
+  padding-top: 20px;
+}
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+.menu .box-container .box{
+    padding:5rem;
+    text-align: center;
+    border:var(--border);
+}
+
+.menu .box-container .box img{
+    height: 10rem;
+}
+
+.menu .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding:1rem 0;
+}
+.h2{
+  text-align: center;
+  padding-left: 1000px;
+}
+.footer{
+  background-color: Black;
+  padding-left: 855px;
+  color:white;
+  padding-top: 100px;
+}
+.copyright{
+  color:white;
+  font-size: 0.75rem;
+  padding-top: 30px;
+}
+.btn{
+  border-radius: 11px;
+  padding-bottom: 50px;
+}
+.footer-link{
+  padding-right: 10px;
+}
+@media(min-width:1000px){
+  #title{
+    text-align: center;
+  }
+}
+.contactus{
+  padding-left: 800px;
+  background-color: Black;
+  color: white;
+}
+.inputbox{
+  padding-top: 25px;
+}
