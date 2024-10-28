@@ -1,153 +1,181 @@
 <!DOCTYPE html>
-<html >
-  <head>
+<html lang="en">
+<head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>Coffee website</title>
-    <link rel="icon" href="image/favicon (2).ico">
+    <link rel="icon" href="./image/favicon (2).ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-  </head>
-  <body>
+</head>
+<body>
 
-  <!-- JavaScript Bundle with Popper -->
-   <section id="title">
+<!-- JavaScript Bundle with Popper -->
+<section id="title" style="font-family: 'Times New Roman', Times, serif;">
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-     <a class="navbar-brand" href="">COFFEE CAFE</a>
-     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-     </button>
-     <div class="collapse navbar-collapse" id="navbarTogglerDemo01" >
-         <ul class="navbar-nav ms-auto">
-             <li class="nav-block">
-                 <a class="nav-link" href="">Home</a>
-             </li>
-             <li class="nav-block">
-                 <a class="nav-link" href="">About</a>
-             </li>
-             <li class="nav-block">
-                 <a class="nav-link" href="">Menu</a>
-             </li>
-             <li class="nav-block">
-                 <a class="nav-link" href="">Products</a>
-             </li>
-             <li class="nav-block">
-                 <a class="nav-link" href="">Review</a>
-             </li>
-         </ul>
-     </div>
- </nav>
-<!-- Home -->
- <div class="row">
-  <div class="col-lg-6">
-   <h3>"Coffee smells like freshly ground heaven." <br> “Today's good mood is sponsored by good coffee.”</h3>
-   <br>
-     <button class="btn btn-outline-light btn-lg"  href="#" type="button"><i class="fa-regular fa-cup-togo"></i> Get Yours Now</button>
-   </div>
- <div class="col-lg-6 img">
-   <img src="image/coffee cup.jpg" alt="coffee" height="600">
-  </div>
-  </div>
-  </div>
-</section>
- <!-- About -->
-<section class="about">
-  <div class="row">
-    <div class="image">
-        <h1>About Us</h1>
-        <img class="coffeeimg" src="image/about coffee.avif" alt="Coffee Cup" height="300">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="">COFFEE CAFE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Review</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Home -->
+        <div class="row text-center" style="color: white;">
+            <div class="col-lg-6">
+                <h3 class="home-content">"Coffee smells like freshly ground heaven." <br> “Today's good mood is sponsored by good coffee.”</h3>
+                <br>
+                <button class="btn btn-outline-light btn-lg"><i class="fa-regular fa-cup-togo"></i> Get Yours Now</button>
+            </div>
+            <div class="col-lg-6 img">
+                <img src="image/coffee cup.jpg" alt="coffee" class="img-fluid"> <!-- Made image responsive -->
+            </div>
+        </div>
     </div>
-    <div class="content">
-      <h3><b>We make the delicious coffee for coffee lovers.</b></h3>
-        <p>Coffee can be either a shot of energy or a warm hug depending on the situation, which is why so many people love it.</p>
-        <p>It’s a drink that’s easy to enjoy and can lift your spirits up with every cup.</p>
-        <p>The sheer variety of coffee brews, blends, and flavors also guarantees that there’s a cup for every kind of person.</p>
-        <p>The taste of coffee can range from a dark, bitter yet rich and aromatic flavor to a light, mellow taste with a creamy tone.</p>
-        <p>It can be enjoyed warm or iced and it pairs well with pretty much everything.</p>
-        <button class="btn btn-outline-light btn-lg" href="#" type="button"><i class="fa-regular fa-cup-togo"></i>Learn more</a>
+</section>
+
+<!-- About -->
+<section class="about" style="color: white; background-color: black; font-family: 'Times New Roman', Times, serif;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center">
+                <h1 class="heading">ABOUT US</h1>
+                <img class="coffeeimg img-fluid" src="image/about coffee.avif" alt="Coffee Cup"> <!-- Made image responsive -->
+            </div>
+            <div class="col-md-6">
+                <h3><b>We make delicious coffee for coffee lovers.</b></h3>
+                <p>Coffee can be either a shot of energy or a warm hug depending on the situation, which is why so many people love it.</p>
+                <p>It’s a drink that’s easy to enjoy and can lift your spirits up with every cup.</p>
+                <p>The sheer variety of coffee brews, blends, and flavors also guarantees that there’s a cup for every kind of person.</p>
+                <p>The taste of coffee can range from a dark, bitter yet rich and aromatic flavor to a light, mellow taste with a creamy tone.</p>
+                <p>It can be enjoyed warm or iced and it pairs well with pretty much everything.</p>
+                <button class="btn btn-outline-light btn-lg"><i class="fa-regular fa-cup-togo"></i>Learn more</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Menu -->
+<section class="menu" style="color: white; font-family: 'Times New Roman', Times, serif;">
+    <h1 class="heading"> OUR MENU </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="box">
+                    <img src="image/cappuccino.jpg" alt="cappuccino coffee" class="img-fluid">
+                    <h3>Cappuccino Coffee</h3>
+                    <a href="#" class="btn btn-outline-light btn-lg"><i class="fa-regular fa-cup-togo"></i>Add to Cart</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box">
+                    <img src="image/Cortadito.png" alt="cortado coffee" class="img-fluid">
+                    <h3>Cortado Coffee</h3>
+                    <a href="#" class="btn btn-outline-light btn-lg"><i class="fa-regular fa-cup-togo"></i>Add to Cart</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box">
+                    <img src="image/Latte.jpg" alt="latte coffee" class="img-fluid">
+                    <h3>Latte Coffee</h3>
+                    <a href="#" class="btn btn-outline-light btn-lg"><i class="fa-regular fa-cup-togo"></i>Add to Cart</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box">
+                    <img src="image/lungo.jpg" alt="lungo coffee" class="img-fluid">
+                    <h3>Lungo Coffee</h3>
+                    <a href="#" class="btn btn-outline-light btn-lg"><i class="fa-regular fa-cup-togo"></i>Add to Cart</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box">
+                    <img src="image/Macchiato.jpg" alt="macchiato coffee" class="img-fluid">
+                    <h3>Macchiato Coffee</h3>
+                    <a href="#" class="btn btn-outline-light btn-lg"><i class="fa-regular fa-cup-togo"></i>Add to Cart</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box">
+                    <img src="image/RedEyeCoffeeDrink.jpg" alt="reds eye coffee" class="img-fluid">
+                    <h3>Reds Eye Coffee</h3>
+                    <a href="#" class="btn btn-outline-light btn-lg"><i class="fa-regular fa-cup-togo"></i>Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="contactus" style="color: white; font-family: 'Times New Roman', Times, serif;">
+  <div class="contact-left">
+    <h1 class="heading"> CONTACT US </h1>
+      <div class="contact-form">
+          <i class="contact-icon fas fa-user"></i>
+          <div class="inputbox">
+              <input type="text" placeholder="Enter your Name" required>
+          </div>
+      </div>
+
+      <div class="contact-form">
+          <i class="contact-icon fas fa-envelope"></i>
+          <div class="inputbox">
+              <input type="email" placeholder="Enter your email" required>
+          </div>
+      </div>
+
+      <div class="contact-form">
+          <i class="contact-icon fas fa-phone"></i>
+          <div class="inputbox">
+              <input type="tel" placeholder="Enter your phone number" required>
+          </div>
+      </div>
+
+      <div class="contact-form">
+          <i class="contact-icon fas fa-map-marker-alt"></i>
+          <div class="inputbox">
+              <input type="text" placeholder="Enter your address" required>
+          </div>
       </div>
   </div>
-  </div>
- </div>
-</section>
-<!-- Our Menu -->
-<section class="menu">
-  <h1 class="heading"> OUR MENU </h1>
-  <div class="box-container">
 
-    <div class="box">
-      <img src="image/cappuccino.jpg" alt="cappuccino coffee" height="250">
-      <h3>Cappuccino Coffee</h3>
-      <a href="#" class="btn btn-outline-light btn-lg" type="button"><i class="fa-regular fa-cup-togo"></i>Add to Cart</a>
-    </div>
-
-    <div class="box">
-      <img src="image/Cortadito.png" alt="cortado coffee" height="300"  width="250">
-      <h3>Cortado Coffee</h3>
-      <a href="#" class="btn btn-outline-light btn-lg" type="button"><i class="fa-regular fa-cup-togo"></i>Add to Cart</a>
-    </div>
-
-    <div class="box">
-      <img src="image/Latte.jpg" alt="latte coffee" height="300">
-      <h3>Latte Coffee</h3>
-      <a href="#" class="btn btn-outline-light btn-lg" type="button"><i class="fa-regular fa-cup-togo"></i>Add to Cart</a>
-    </div>
-
-    <div class="box">
-      <img src="image/lungo.jpg" alt="lungo coffee" height="300" width="350">
-      <h3>Lungo Coffee</h3>
-      <a href="#" class="btn btn-outline-light btn-lg" type="button"><i class="fa-regular fa-cup-togo"></i>Add to Cart</a>
-    </div>
-
-    <div class="box">
-      <img src="image/Macchiato.jpg" alt="macchiato coffee" height="300">
-      <h3>Macchiato Coffee</h3>
-      <a href="#" class="btn btn-outline-light btn-lg" type="button"><i class="fa-regular fa-cup-togo"></i>Add to Cart</a>
-    </div>
-
-    <div class="box">
-      <img src="image/RedEyeCoffeeDrink.jpg" alt="reds eye coffee" height="500">
-      <h3>Reds Eye Coffee</h3>
-      <a href="#" class="btn btn-outline-light btn-lg" type="button"><i class="fa-regular fa-cup-togo"></i>Add to Cart</a>
-    </div>
-
+  <div class="contact-right">
+      <img src="./image/thank-you-note.webp" alt="Contact Us" class="contact-image">
   </div>
 </section>
-<!-- Contact -->
-  <div class="contactus">
-    <h1> Contact Us</h1>
-     <div class="row">
-      <form action="">
-        <div class="inputbox">
-          <i class="fas fa-user"></i>
-          <input type="text" placeholder="Name">
-        </div>
-        <div class="inputbox">
-          <i class="fas fa-envelope"></i>
-          <input type="email" placeholder="E-Mail">
-        </div>
-        <div class="inputbox">
-          <i class="fas fa-home"></i>
-          <input type="address" placeholder="Address">
-        </div>
-        <div class="inputbox">
-          <i class="fas fa-phone"></i>
-          <input type="number" placeholder="Number">
-        </div>
-        <input class="buynow" type="submit" value="Buy Now">
-      </form>
-     </div>
-  </div>
+
+
 <!-- Footer -->
-  <div class="footer">
-  <button type="button" class="btn "></button><i class="fab fa-linkedin"></i></i></a>
-   <button type="button" class="btn "></button><i class="fab fa-twitter"></i></i></a>
-   <button type="button" class="btn "></button><i class="fab fa-facebook"></i></i></a>
-   <button type="button" class="btn "></button><i class="fab fa-youtube"></i></i></a>
-        <p class="copyright"> &#169;  Dhanyavarshini 2022</p>
-   </div>
-
-  </body>
+<div class="footer" style="color: white; font-family: 'Times New Roman', Times, serif;">
+    <div class="container text-center">
+        <a href="#" class="footer-link"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="footer-link"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="footer-link"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="footer-link"><i class="fab fa-youtube"></i></a>
+        <p class="copyright"> &#169;  Dhanyavarshini | All Rights Reserved</p>
+      </div>
+  </div>
+  
+</body>
 </html>
