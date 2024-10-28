@@ -1,133 +1,280 @@
-#title{
-  background-color:Black;
+:root {
+  --main-color: #d3ad7f;
+  --black: #000000;
+  --white: #ffffff;
+  --border: 1px solid #fff;
 }
-.container-fluid{
-  padding: 3% 15%;
-}
-h1{
-  font-family: "Merriweather";
-  font-size: 4rem;
-  line-height: 2;
-}
-.navbar{
-  padding-bottom: 15rem;
-}
-.navbar-brand{
-  font-size: 100px;
-  font-family: "Source Serif Pro";
-  font-weight: bold;
-  font-style: italic;
-  font-weight: 500px;
-}
-.nav-block{
-  padding: 0 18px;
-}
-.nav-link{
-  font-size: 4rem;
-  font-family: "Source Serif Pro-light";
-}
-.img{
-  width: 10%;
-  padding-bottom:30px;
-  padding-left:50px;
-}
-#features{
-  padding: 7% 15%;
-}
-.home{
-  padding-top: 15%;
-}
-.row{
+
+body {
+  background-color: black;
   color: white;
-  font-family: "Source Serif Pro";
-  font-style: italic;
-  font-size: 1.5rem;
-  align-items: center;
-  line-height: normal;
-}
-.content{
-  text-align: left;
-  width: 70%;
-  margin: 100px auto;
-}
-.coffeeimg{
-  border-radius: 10%;
-}
-.about{
-  background: Black;
-  float: left;
-  font-family: "Source Serif Pro";
-  align-items: center;
-  padding-left: 400px;
-  padding-top: 90px;
-}
-.heading{
-  padding-left: 800px;
-
-}
-.menu{
-  padding-left: 100px;
-  background-color: Black;
-  color:white;
-  font-family: "Source Serif Pro";
-  font-style: italic;
-  line-height: 10px;
-  padding-top: 20px;
-}
-.menu .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1.5rem;
-}
-.menu .box-container .box{
-    padding:5rem;
-    text-align: center;
-    border:var(--border);
+  margin: 0;
+  font-family: "Georgia", Georgia, Times, 'Times New Roman', serif;
 }
 
-.menu .box-container .box img{
-    height: 10rem;
+#title {
+  padding: 3rem 0;
+  background-color: var(--black);
 }
 
-.menu .box-container .box h3{
-    color: #fff;
-    font-size: 2rem;
-    padding:1rem 0;
+.home-content {
+  padding: 100px;
 }
-.h2{
+
+
+.container-fluid {
+  padding: 0 15px;
+}
+
+h1, h3 {
   text-align: center;
-  padding-left: 1000px;
+  margin: 2rem 0;
 }
-.footer{
-  background-color: Black;
-  padding-left: 800px;
-  color:white;
-  padding-top: 100px;
+
+.navbar {
+  padding: 1rem 0;
 }
-.copyright{
-  color:white;
-  font-size: 0.75rem;
-  padding-top: 30px;
-  padding-left: 30px;
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
 }
-.btn{
-  border-radius: 11px;
-  padding-bottom: 50px;
+
+.nav-link {
+  font-size: 1.5rem;
 }
-.footer-link{
-  padding-right: 10px;
-  margin: 60px;
+
+.img {
+  padding: 30px 0;
 }
-@media(min-width:1000px){
-  #title{
+
+.row {
+  margin-bottom: 2rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 10%;
+  gap: 2rem;
+  min-height: 100vh;
+}
+
+/* Content styling */
+.about-container {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Heading */
+.about-container h1 {
+  font-size: 3rem;
+  font-family: "Merriweather", serif;
+  margin-bottom: 1rem;
+}
+
+/* Paragraphs */
+.about-container p {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: white;
+}
+
+/* About image styling */
+.about-image {
+  max-width: 45%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
     text-align: center;
   }
+
+  .about-container {
+    max-width: 100%;
+  }
+
+  .about-image {
+    width: 80%;
+    margin: 2rem auto 0;
+  }
 }
-.contactus{
-  padding-left: 500px;
-  background-color: Black;
+
+.menu {
+  background-color: var(--black);
+  padding: 2rem 15%;
+}
+
+.menu .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 1.5rem;
+}
+
+.menu .box {
+  text-align: center;
+  border: var(--border);
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #1e1e1e;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu .box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.contactus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
+  background-color: black;
+  padding: 4rem 5%;
   color: white;
 }
-.inputbox{
-  padding-top: 25px;
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.inputbox {
+  flex: 1;
+}
+
+.inputbox input {
+  width: 100%;
+  padding: 1rem;
+  margin-left: 1rem;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+
+.inputbox input::placeholder {
+  color: #bbb;
+}
+
+.contact-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .contactus {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .contact-left {
+    align-items: center;
+  }
+
+  .contact-right {
+    margin-top: 2rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .contactus {
+    flex-direction: column;
+  }
+
+  .inputbox {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .inputbox input {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
+
+.buynow {
+  margin-top: 1rem;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--black);
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer-link {
+  color: var(--white);
+  margin: 0 1rem;
+  font-size: 1.5rem;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+  }
+
+  .menu {
+    padding: 1rem 5%;
+  }
+
+  .menu .box {
+    height: auto;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
 }
